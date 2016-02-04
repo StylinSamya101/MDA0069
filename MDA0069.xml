@@ -1,24 +1,3 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="math_arithmetic" id="290" inline="true" x="-701" y="47">
-    <field name="OP">ADD</field>
-  </block>
-  <block type="movement_forward" id="101" x="-207" y="44">
-    <next>
-      <block type="robot_delay" id="111" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="128">
-            <field name="NUM">1000</field>
-          </block>
-        </value>
-        <next>
-          <block type="oled_drawtext" id="317">
-            <field name="TEXT">i like cheese</field>
-            <next>
-              <block type="movement_stop" id="121"></block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </next>
-  </block>
+  <block type="movement_reverse" id="335" x="-565" y="33"></block>
 </xml>
