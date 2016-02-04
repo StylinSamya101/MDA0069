@@ -19,7 +19,7 @@
             </value>
             <next>
               <block type="oled_drawtext" id="317">
-                <field name="TEXT">i like poo</field>
+                <field name="TEXT">i like cheese</field>
                 <next>
                   <block type="movement_stop" id="121"></block>
                 </next>
