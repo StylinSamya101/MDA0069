@@ -11,19 +11,10 @@
           </block>
         </value>
         <next>
-          <block type="robot_delay" id="235" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="258">
-                <field name="NUM">1000</field>
-              </block>
-            </value>
+          <block type="oled_drawtext" id="317">
+            <field name="TEXT">i like cheese</field>
             <next>
-              <block type="oled_drawtext" id="317">
-                <field name="TEXT">i like cheese</field>
-                <next>
-                  <block type="movement_stop" id="121"></block>
-                </next>
-              </block>
+              <block type="movement_stop" id="121"></block>
             </next>
           </block>
         </next>
