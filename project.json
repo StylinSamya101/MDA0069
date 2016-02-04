@@ -1,0 +1,10 @@
+{
+    "name": "MDA0069",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "MDA0069.xml",
+    "author": "StylinSamya101",
+    "minimum_firmware_version": 42
+}
