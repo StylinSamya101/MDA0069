@@ -1,14 +1,36 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="math_arithmetic" id="290" inline="true" x="-701" y="47">
+    <field name="OP">ADD</field>
+  </block>
   <block type="movement_forward" id="101" x="-207" y="44">
     <next>
       <block type="robot_delay" id="111" inline="true">
         <value name="DELAY">
           <block type="math_number" id="128">
-            <field name="NUM">500</field>
+            <field name="NUM">5010000000</field>
           </block>
         </value>
         <next>
-          <block type="movement_stop" id="121"></block>
+          <block type="movement_stop" id="121">
+            <next>
+              <block type="robot_delay" id="235" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="258">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="robot_delay" id="268" inline="true">
+                    <next>
+                      <block type="oled_drawtext" id="317">
+                        <field name="TEXT">Samya u suck</field>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
         </next>
       </block>
     </next>
