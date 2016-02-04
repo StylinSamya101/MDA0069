@@ -29,7 +29,21 @@
                           <block type="oled_drawtext" id="778">
                             <field name="TEXT">Sup</field>
                             <next>
-                              <block type="movement_stop" id="697"></block>
+                              <block type="oled_setcursor" id="824" inline="true">
+                                <value name="STARTX">
+                                  <block type="math_number" id="831">
+                                    <field name="NUM">20</field>
+                                  </block>
+                                </value>
+                                <value name="STARTY">
+                                  <block type="math_number" id="839">
+                                    <field name="NUM">20</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="movement_stop" id="697"></block>
+                                </next>
+                              </block>
                             </next>
                           </block>
                         </next>
