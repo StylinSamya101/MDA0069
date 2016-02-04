@@ -1,15 +1,21 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_if" id="419" inline="false" x="-639" y="110">
+  <block type="controls_if" id="457" inline="false" x="-641" y="41">
+    <mutation elseif="1"></mutation>
     <value name="IF0">
-      <block type="sensor_spectrometer" id="381">
+      <block type="sensor_spectrometer" id="470">
         <field name="LIGHT">YELLOW</field>
       </block>
     </value>
     <statement name="DO0">
-      <block type="movement_forward" id="392"></block>
+      <block type="movement_forward" id="481"></block>
     </statement>
-    <next>
-      <block type="movement_stop" id="432"></block>
-    </next>
+    <value name="IF1">
+      <block type="sensor_spectrometer" id="488">
+        <field name="LIGHT">BLUE</field>
+      </block>
+    </value>
+    <statement name="DO1">
+      <block type="movement_reverse" id="498"></block>
+    </statement>
   </block>
 </xml>
