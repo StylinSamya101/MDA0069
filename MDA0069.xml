@@ -7,26 +7,21 @@
       <block type="robot_delay" id="111" inline="true">
         <value name="DELAY">
           <block type="math_number" id="128">
-            <field name="NUM">5010000000</field>
+            <field name="NUM">1000</field>
           </block>
         </value>
         <next>
-          <block type="movement_stop" id="121">
+          <block type="robot_delay" id="235" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="258">
+                <field name="NUM">1000</field>
+              </block>
+            </value>
             <next>
-              <block type="robot_delay" id="235" inline="true">
-                <value name="DELAY">
-                  <block type="math_number" id="258">
-                    <field name="NUM">10</field>
-                  </block>
-                </value>
+              <block type="oled_drawtext" id="317">
+                <field name="TEXT">Samya u suck</field>
                 <next>
-                  <block type="robot_delay" id="268" inline="true">
-                    <next>
-                      <block type="oled_drawtext" id="317">
-                        <field name="TEXT">Samya u suck</field>
-                      </block>
-                    </next>
-                  </block>
+                  <block type="movement_stop" id="121"></block>
                 </next>
               </block>
             </next>
