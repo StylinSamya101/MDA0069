@@ -19,7 +19,7 @@
             </value>
             <next>
               <block type="oled_drawtext" id="317">
-                <field name="TEXT">Samya u suck</field>
+                <field name="TEXT">samya sucks</field>
                 <next>
                   <block type="movement_stop" id="121"></block>
                 </next>
