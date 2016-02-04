@@ -17,13 +17,12 @@
                   </block>
                 </value>
                 <next>
-                  <block type="movement_stop" id="697">
+                  <block type="movement_left" id="709">
                     <next>
-                      <block type="movement_left" id="709">
+                      <block type="oled_drawtext" id="778">
+                        <field name="TEXT">Sup</field>
                         <next>
-                          <block type="oled_drawtext" id="778">
-                            <field name="TEXT">Sup</field>
-                          </block>
+                          <block type="movement_stop" id="697"></block>
                         </next>
                       </block>
                     </next>
