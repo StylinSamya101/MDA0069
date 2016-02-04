@@ -2,7 +2,7 @@
   <block type="controls_if" id="419" inline="false" x="-639" y="110">
     <value name="IF0">
       <block type="sensor_spectrometer" id="381">
-        <field name="LIGHT">BLUE</field>
+        <field name="LIGHT">YELLOW</field>
       </block>
     </value>
     <statement name="DO0">
