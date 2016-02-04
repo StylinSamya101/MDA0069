@@ -1,13 +1,10 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="392" x="-597" y="62">
-    <next>
-      <block type="robot_delay" id="394" inline="true">
-        <value name="DELAY">
-          <block type="sensor_spectrometer" id="381">
-            <field name="LIGHT">BLUE</field>
-          </block>
-        </value>
+  <block type="movement_forward" id="392" x="-663" y="61"></block>
+  <block type="robot_delay" id="394" inline="true" x="-490" y="228">
+    <value name="DELAY">
+      <block type="sensor_spectrometer" id="381">
+        <field name="LIGHT">BLUE</field>
       </block>
-    </next>
+    </value>
   </block>
 </xml>
